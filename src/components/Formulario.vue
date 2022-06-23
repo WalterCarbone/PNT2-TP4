@@ -83,8 +83,7 @@
         <button class="btn btn-success my-4" :disabled="formState.$invalid">Enviar</button>
       </vue-form>
       <hr>    
-      <!-- <pre>{{ formData }}</pre>  
-      <pre>{{ formState }}</pre>   -->
+
       <h2>Tabla de información</h2>
       <div v-if="usuarios.length" class="table-responsive">
         <table class="table talbe-dark" >

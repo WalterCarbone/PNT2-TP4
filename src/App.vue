@@ -3,9 +3,10 @@
     <div class="jumbotron">
       <h1>Trabajo Practico 4 Vue CLI - Router / Formularios</h1>
       <br>
-  <Formulario />
-     <!-- <Navbar />
-      <router-view></router-view>-->
+  
+     <Navbar />
+      <router-view></router-view>
+      
 
   
 
@@ -14,12 +15,14 @@
 </template>
 
 <script>
-import Formulario from './components/Formulario.vue'
+
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
-   Formulario
+
+  Navbar
   }
 }
 </script>
